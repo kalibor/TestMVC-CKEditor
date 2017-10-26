@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<div class="col-lg-12">
+
+    <input id="editor2" />
+</div>
+@Url.Action("ProcessRequest", new { command = "QuickUpload", type = "Image" })
+@section scripts{
+    <script src="https://cdn.ckeditor.com/4.7.3/full-all/ckeditor.js"></script>
+    <script>
+        var url ='@Url.Action("ProcessRequest")'
+
+         CKEDITOR.replace('editor2', {
+             extraPlugins: 'uploadimage,image2',
+             height: 300,
+
+             /*圖片拖曳上傳*/
+             uploadUrl: url + '?command=QuickUpload&type=Files&responseType=json',
+
+             /*Toolbar上傳*/
+
+             /* 檔案流覽系統，目前無實作
+             filebrowserBrowseUrl: url+"2",
+             filebrowserImageBrowseUrl: url+ '2?type=Images',
+             */
+
+
+             filebrowserUploadUrl: url + '2?command=QuickUpload&type=Files',
+             filebrowserImageUploadUrl: url + '2?command=QuickUpload&type=Images',
+
+         });
+
+    </script>
+}
