@@ -19,7 +19,7 @@ namespace TestCKEditor.Controllers
             var url = "https://az788688.vo.msecnd.net/assets/img/dotblog-logo@2x.png?v=2017.10.21.1";
             var CKEditorFuncNum = Request["CKEditorFuncNum"];
 
-            var strResponse = "<script>window.parent.CKEDITOR.tools.callFunction(" + 0 + ", '" + url + "');</script>";
+            var strResponse = "<script>window.parent.CKEDITOR.tools.callFunction(" + CKEditorFuncNum + ", '" + url + "');</script>";
 
             Response.Write(strResponse);
         }
