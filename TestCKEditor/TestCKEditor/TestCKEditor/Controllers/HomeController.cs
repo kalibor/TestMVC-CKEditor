@@ -27,6 +27,8 @@ namespace TestCKEditor.Controllers
 
         public void ProcessRequest2()
         {
+            HttpPostedFileBase uploads = HttpContext.Request.Files["upload"];
+
             var url = "https://az788688.vo.msecnd.net/assets/img/dotblog-logo@2x.png?v=2017.10.21.1";
             var CKEditorFuncNum = Request["CKEditorFuncNum"];
 
