@@ -10,15 +10,17 @@
     <input id="editor2" />
 </div>
 @Url.Action("ProcessRequest", new { command = "QuickUpload", type = "Image" })
+
 @section scripts{
-  
-<script src="~/Tool/ckeditor_4.7.3_full/ckeditor/ckeditor.js"></script>
+
+  <script src="~/Tool/ckeditor_4.7.3_full/ckeditor/ckeditor.js"></script>
 
     <script>
         var url ='@Url.Action("ProcessRequest")'
 
+
          CKEDITOR.replace('editor2', {
-             height: 300,
+             height: 400,
              /*圖片拖曳上傳*/
              uploadUrl: url + '?command=QuickUpload&type=Files&responseType=json',
 
