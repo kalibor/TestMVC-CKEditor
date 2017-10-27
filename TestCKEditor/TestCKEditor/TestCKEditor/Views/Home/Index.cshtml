@@ -1,4 +1,4 @@
-﻿
+﻿@model TestCKEditor.ViewModel.CreateViewModel
 @{
     ViewBag.Title = "Index";
 }
@@ -7,13 +7,20 @@
 
 <div class="col-lg-12">
 
-    <input id="editor2" />
+    @using (Html.BeginForm("Create", "Home", FormMethod.Post))
+    {
+        @Html.TextAreaFor(x => x.data, new { id = "editor2" })
+
+        <button type="submit">送出</button>
+    }
+
 </div>
+
 @Url.Action("ProcessRequest", new { command = "QuickUpload", type = "Image" })
 
 @section scripts{
 
-  <script src="~/Tool/ckeditor_4.7.3_full/ckeditor/ckeditor.js"></script>
+    <script src="~/Tool/ckeditor_4.7.3_full/ckeditor/ckeditor.js"></script>
 
     <script>
         var url ='@Url.Action("ProcessRequest")'
@@ -24,12 +31,12 @@
              /*圖片拖曳上傳*/
              uploadUrl: url + '?command=QuickUpload&type=Files&responseType=json',
 
-           
+
             /*Toolbar上傳*/
              filebrowserUploadUrl: url + '2?command=QuickUpload&type=Files',
              filebrowserImageUploadUrl: url + '2?command=QuickUpload&type=Images',
 
-             
+
              /* 檔案流覽系統，目前無實作
              filebrowserBrowseUrl: url+"2",
              filebrowserImageBrowseUrl: url+ '2?type=Images',
@@ -37,6 +44,7 @@
 
 
          });
+
 
     </script>
 }
