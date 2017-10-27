@@ -3557,6 +3557,34 @@
     <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\plugins\wsc\dialogs\wsc.js" />
     <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\plugins\wsc\dialogs\wsc_ie.js" />
     <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\plugins\wsc\skins\moono-lisa\wsc.css" />
+    <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\plugins\youtube_2.1.6\youtube\images\icon.png" />
+    <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\plugins\youtube_2.1.6\youtube\lang\ar.js" />
+    <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\plugins\youtube_2.1.6\youtube\lang\cs.js" />
+    <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\plugins\youtube_2.1.6\youtube\lang\de.js" />
+    <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\plugins\youtube_2.1.6\youtube\lang\el.js" />
+    <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\plugins\youtube_2.1.6\youtube\lang\en.js" />
+    <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\plugins\youtube_2.1.6\youtube\lang\es.js" />
+    <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\plugins\youtube_2.1.6\youtube\lang\et.js" />
+    <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\plugins\youtube_2.1.6\youtube\lang\eu.js" />
+    <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\plugins\youtube_2.1.6\youtube\lang\fi.js" />
+    <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\plugins\youtube_2.1.6\youtube\lang\fr.js" />
+    <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\plugins\youtube_2.1.6\youtube\lang\he.js" />
+    <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\plugins\youtube_2.1.6\youtube\lang\hu.js" />
+    <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\plugins\youtube_2.1.6\youtube\lang\it.js" />
+    <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\plugins\youtube_2.1.6\youtube\lang\ja.js" />
+    <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\plugins\youtube_2.1.6\youtube\lang\ko.js" />
+    <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\plugins\youtube_2.1.6\youtube\lang\nb.js" />
+    <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\plugins\youtube_2.1.6\youtube\lang\nl.js" />
+    <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\plugins\youtube_2.1.6\youtube\lang\nn.js" />
+    <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\plugins\youtube_2.1.6\youtube\lang\pl.js" />
+    <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\plugins\youtube_2.1.6\youtube\lang\pt-br.js" />
+    <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\plugins\youtube_2.1.6\youtube\lang\pt.js" />
+    <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\plugins\youtube_2.1.6\youtube\lang\ru.js" />
+    <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\plugins\youtube_2.1.6\youtube\lang\sk.js" />
+    <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\plugins\youtube_2.1.6\youtube\lang\tr.js" />
+    <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\plugins\youtube_2.1.6\youtube\lang\vi.js" />
+    <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\plugins\youtube_2.1.6\youtube\lang\zh.js" />
+    <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\plugins\youtube_2.1.6\youtube\plugin.js" />
     <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\samples\css\samples.css" />
     <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\samples\img\github-top.png" />
     <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\samples\img\header-bg.png" />
@@ -3702,6 +3730,9 @@
     <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\samples\toolbarconfigurator\font\fontello.woff" />
     <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\samples\toolbarconfigurator\lib\codemirror\LICENSE" />
     <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\skins\moono-lisa\readme.md" />
+    <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\plugins\youtube_2.1.6\bower.json" />
+    <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\plugins\youtube_2.1.6\LICENSE.md" />
+    <Content Include="Tool\ckeditor_4.7.3_full\ckeditor\plugins\youtube_2.1.6\README.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

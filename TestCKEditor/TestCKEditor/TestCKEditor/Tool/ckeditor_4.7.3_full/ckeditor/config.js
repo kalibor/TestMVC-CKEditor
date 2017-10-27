@@ -4,6 +4,8 @@
  */
 
 CKEDITOR.editorConfig = function (config) {
+    config.extraPlugins = 'youtube', 'uploadimage', 'image2';
+
     config.toolbarGroups = [
         { name: 'document', groups: ['mode', 'document', 'doctools'] },
         { name: 'clipboard', groups: ['undo', 'clipboard'] },
@@ -18,7 +20,8 @@ CKEDITOR.editorConfig = function (config) {
         { name: 'colors', groups: ['colors'] },
         { name: 'tools', groups: ['tools'] },
         { name: 'others', groups: ['others'] },
-        { name: 'about', groups: ['about'] }
+        { name: 'about', groups: ['about'] },
+        { name: 'youtube', groups: ['youtube'] },
     ];
 
     config.removeButtons = 'Save,NewPage,Preview,Print,Templates,Paste,Copy,Cut,Find,Replace,SelectAll,Scayt,Form,Checkbox,TextField,Radio,Textarea,Select,Button,ImageButton,HiddenField,BidiLtr,BidiRtl,Language,PageBreak,Flash,CopyFormatting,ShowBlocks';
